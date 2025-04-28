@@ -30,11 +30,11 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 
-#from data_prep.SlicesDataset import SlicesDataset
-#from utils.utils import log_to_tensorboard
-#from utils.volume_stats import Dice3d, Jaccard3d
-#from networks.RecursiveUNet import UNet
-#from inference.UNetInferenceAgent import UNetInferenceAgent
+from data_prep.SlicesDataset import SlicesDataset
+from utils.utils import log_to_tensorboard
+from utils.volume_stats import Dice3d, Jaccard3d
+from networks.RecursiveUNet import UNet
+from inference.UNetInferenceAgent import UNetInferenceAgent
 
 class UNetExperiment:
     """
