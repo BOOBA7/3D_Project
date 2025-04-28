@@ -16,9 +16,9 @@ Contains class that runs inferencing
 import torch
 import numpy as np
 
-#from networks.RecursiveUNet import UNet
+from networks.RecursiveUNet import UNet
 
-#from utils.utils import med_reshape
+from utils.utils import med_reshape
 
 class UNetInferenceAgent:
     """
